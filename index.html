@@ -1,13 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>This is the Title</title>
+  <title>Title goes here</title>
 </head>
 <body>
-  <h1>A site about a site</h1>
-  <h2>Devbootcamp</h2>
+  <h1>H1: A site about a site</h1>
+  <h2>H2: Devbootcamp</h2>
   <p>
     I plan on using this site to talk about DBC, tips I learned, and so on. Might even talk about this site. So meta.
   </p>
+  <p>
+  This is the DBC Logo:
+  <img src="http://p0.devbootcamp.com/images/devbootcamp.png" alt="DBC Logo" width="300"> (perfect alignment, such skillz)
+  </p>
+  <h2>H2: Step-By-Step Go-To-Guide </h2>
+    <h3>Ordered List: Example Workflow</h3>
+      <p>(If there is a cloned repo, start on step 3)</p>
+      <ol> 
+        <li>Create repo on GitHub</li>
+        <li>Clone Repo - git clone [url]</li>
+        <li>Go to folder - cd [repo-folder]</li>
+        <li>Create Branch - git checkout -b [new-branch]</li>
+        <li>(Optional)Create file - touch [filename]</li>
+        <li>Edit file - subl [filename]</li>
+        <li>Stage file - git add [filename](tip: git add --all)</li>
+        <li>Commit file - git commit -m "commit message"</li>
+        <li>Send changes to GitHub - git push origin [branch-name]</li>
+        <li>Go to GitHub, review and merge there</li>
+        <li>Back in terminal, go to master - git checkout master</li>
+        <li>Pull changes from GitHub - git pull origin master</li>
+      </ol>
+      <p>TIP:You can do a initial commit on master with git push -u origin master and at the end use a simple git push to pull changes.</p>
+  <h2>H2: Another topic will go here</h2>
+    <h3>H3:Probably it will have some tables</h3>
+    <table border="1">
+      <tr>
+        <th colspan="2"> It will have a heading</th> 
+      </tr>
+      <tr>
+        <td> This will be </td>
+        <td> The first row </td>
+      </tr>
+      <tr>
+        <td> And this one </td>
+        <td> The second row </td>
+      </tr>
+    </table>
+  <h2>H2: Additional resources</h2>
+  <p>
+    <a href="https://devbootcamp.instructure.com/courses">Here</a> I will add a link using href to DBC canvas. Unlike this site you are now at, DBC canvas has names and tags to pretty much every section, and even I, a total noob, can understand why. </p>
+    <p>They use it to make everything neatly organized and easy to follow, for those reading the page and those who would later want to edit and it and improve it.  </p>
 </body>
 </html>
