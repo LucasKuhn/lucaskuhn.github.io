@@ -1,0 +1,46 @@
+#important {
+  text-transform: uppercase;
+  color:red;
+}
+.center {
+  text-align: center;
+}
+h1 {
+  padding: 2px;
+  border: 2px solid pink;
+  margin:auto;
+  display: inline-block;
+}
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+footer {
+  background-color: pink;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+ol {
+  background-image: url(http://speedywheels.com.au/wheel-magician/images/wm_magic-cloud.png)
+}
+
+h2 {
+  background-image: linear-gradient(20deg,white,gray);
+}
+
+a:hover {
+  font-weight: bold;
+}
+a:visited {
+  color: red;
+}
+
+@media (max-width: 350px) {
+  footer {
+    position: static;
+  }
+}
