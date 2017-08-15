@@ -1,3 +1,5 @@
+
+
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
@@ -937,7 +939,9 @@
 				border-top: 0;
 			}
 
+
 /* Button */
+
 
 	input[type="submit"],
 	input[type="reset"],
@@ -959,7 +963,7 @@
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8rem;
+		font-size: 1.2rem;
 		font-weight: 300;
 		height: 2.75rem;
 		letter-spacing: 0.2rem;
@@ -1040,6 +1044,15 @@
 		line-height: calc(2.75rem - 2px);
 	}
 
+	.work-button {
+	  flex-grow: 1;
+	  margin: 2%;
+	}
+	.work-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+	}
 /* BG */
 
 	#bg {
@@ -1592,3 +1605,11 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+
+#center-title {
+	text-align: center;
+	width: 75%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
